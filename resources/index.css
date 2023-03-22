@@ -1,0 +1,55 @@
+header{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(130, 73, 34);
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo{
+    color: rgb(190, 107, 52);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* css do main */
+
+.propósito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.propósito img, .propósito .texto{
+    padding: 8px;
+}
+
+.propósito img{
+    border-radius: 38px;
+    margin: 16px;
+}
+
+.texto{
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(190, 107, 52);
+    font-weight: 50;
+}
+
+.img1{
+    height: 400px;
+    width:600px;
+}
+
+.img2{
+    height: 400px;
+    width: 600px;
+}

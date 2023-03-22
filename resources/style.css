@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css do cabeçalho */
+
+header{
+    background-color: rgb(46, 157, 48);
+    height: 80px;
+}
+.menu .icone:hover{
+    transform: scale(0.8);
+    transition: 9s;
+}
+
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    background-color: rgb(127, 241, 107);
+}
+
+.paginas{
+    width: 950px;
+    display: flex;
+    margin-right: 15px;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+nav li{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+.paginas a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.paginas a:hover{
+    font-size: 1.6rem;
+    color: rgb(88, 74, 35);
+    transition: 1s;
+    cursor:grab;
+}
+
+/* css do main e background */
