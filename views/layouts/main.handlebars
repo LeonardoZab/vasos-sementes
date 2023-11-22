@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vasos Verdes</title>
+</head>
+<body>
+    {{!-- ==================================== cliente ================================= --}}
+    {{#if log}}
+     <header class="cabecario">
+        <img class="icone" src="./img/icone.png" alt="ícone de uma planta">
+        <nav>
+            <ul class="paginas">
+                <a href="/">Home</a>
+                <a href="/potes">Potes</a>
+                <a href="/sementes">Sementes</a>
+                <a href="/logout">Logout</a>
+                <a>Usuário: {{user}}</a>
+                <a href="/carrinho">carrinho</a>    
+            </ul>
+        </nav>
+    </header>
+
+    {{else}}
+
+     <header class="cabecario">
+        <img class="icone" src="./img/icone.png" alt="ícone de uma planta">
+        <nav>
+            <ul class="paginas">
+                <a href="/">Home</a>
+                <a href="/login">Login</a>
+                <a href="/cadastrar">Cadastro</a>   
+            </ul>
+        </nav>
+    </header>
+
+    {{/if}}
+
+    {{!-- ==================================== gerenciador ============================= --}}
+
+    {{#if gerenciador}}
+    <header class="cabecario">
+        <img class="icone" src="../../public/img/icone.png" alt="ícone de uma planta">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/potes">Potes</a>
+            <a href="/sementes">Sementes</a>
+            <a href="/gerenciador">Gerenciador</a>
+            <a href="/logout">Logout</a>
+            <a>Usuário: {{user}}</a>
+            <a href="/carrinho">carrinho</a>
+        </nav>
+    </header>
+
+    {{else}}
+
+    {{!-- <header class="cabecario">
+        <img class="icone" src="../../public/img/icone.png" alt="ícone de uma planta">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+            <a href="/carrinho"><span class="material-symbols-outlined carrinho">
+                shopping_cart
+            </span></a>
+        </nav>
+    </header> --}}
+
+    {{/if}}
+
+    <main>
+        {{{body}}}
+    </main>
+
+</body>

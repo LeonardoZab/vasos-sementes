@@ -1,0 +1,38 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Vasos Verdes</title>
+</head>
+
+{{#if log}}
+    <div class="propósito">
+        <img class="img1" src="./img/casa com vasos.avif" >    
+        <p>Criado em 2023 o site Vasos e Sementes foi desenvolvido com o propósito de trazer uma vida mais verde as residências</p>
+    </div>
+    <br>
+    <div class="propósito">
+        <p> Aqui você vai encontrar vasos de todos os estilos biodegradaveis e sementes de várias flores diferentes para esverdear sua vida!</p>
+        <img class="img2" src="./img/pessoa_segurando_vaso.avif" alt="logo da marca da empresa">    
+    </div>
+{{else}}
+    <div class="desc">
+        <h1>Vasos e Sementes</h1>
+        <p class="titulo">deixe seu ambiente mais verde!</p>
+        <br>
+        <div class="desc2">
+            <div class="desc">
+                <h2>Já tem uma conta?</h2>
+                <br>
+                <a href="./login">Fazer Login</a>
+            </div>
+            <br>
+            <div class="desc">
+                <h2>É novo aqui?</h2>
+                <br>
+                <a href="./cadastrar">Cadastre-se</a>
+            </div>
+        </div>
+    </div>
+{{/if}}

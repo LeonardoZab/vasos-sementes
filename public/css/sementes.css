@@ -1,0 +1,46 @@
+
+
+h1{
+    text-align: center;
+    color: rgb(130, 73, 34);
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.geral{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 30px;
+}
+
+.bordas{
+    border: rgb(23, 84, 24);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.semente{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.semente_linha1{
+    height: 290px;
+    width: 290px;
+}
+
+.semente_linha2{
+    height: 290px;
+    width: 290px;
+}
+
+.semente_linha3{
+    height: 290px;
+    width: 290px;
+}

@@ -1,0 +1,56 @@
+
+
+h1{
+    text-align: center;
+    color: rgb(130, 73, 34);
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pote_linha1:hover{
+    font-size: 1.3rem;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.geral{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 30px;
+}
+
+.bordas{
+    border: rgb(23, 84, 24);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+
+.potes{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.pote_linha1{
+    height: 290px ;
+    width: 290px ;
+    align-items: center;
+}
+
+.pote_linha2{
+    height: 290px ;
+    width: 290px ;
+    align-items: center;
+}
+
+.pote_linha3{
+    height: 290px ;
+    width: 290px ;
+    align-items: center;
+}
